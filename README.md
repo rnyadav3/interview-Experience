@@ -9,4 +9,10 @@ Clone this repo on our local system:
 
 run npm init
 
-after that install all the dependencies like : 
+after that install all the dependencies : express cors mongoose body-parser
+ ```To execute this run  "npm i express cors mongoose body-parser"```
+ 
+  Now open terminal and execute command to run the server
+   ``` node server.js```
+   
+   
