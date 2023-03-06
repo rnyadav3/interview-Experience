@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Interviews</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    td, th {
+      border: 1px solid black;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Interview Details</h1>
+  <table id="interviews-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Company</th>
+        <th>Date of Interview</th>
+        <th>Status of Interview</th>
+        <th>Contact Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% interviews.forEach(function(interview) { %>
+        <tr>
+          <td><%= interview.name %></td>
+          <td><%= interview.email %></td>
+          <td><%= interview.company.join(", ") %></td>
+          <td><%= interview.status %></td>
+          <td><%= interview.phone %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</body>
+</html>
