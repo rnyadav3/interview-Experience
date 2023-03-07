@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -40,6 +42,24 @@
           }
       
           #my-button2:hover {
+            background-color: #33d6a0;
+          }
+          #my-button3 {
+            padding: 5px 5px;
+            background-color: #0b7a3d;
+            color: white;
+            border-radius: 5px;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          
+            position: fixed;
+            top: 100px;
+            left: 10px;
+          }
+      
+          #my-button3:hover {
             background-color: #33d6a0;
           }
       /* Basic CSS styling */
@@ -98,6 +118,10 @@
       </a>
       <a href="https://docs.google.com/document/d/1ibheo_-uLepWfeA6mQft9zZI3nHUpf2Pxg3NTUsi3GI/edit?usp=sharing" target="_blank">
         <button id="my-button2" type="button">Share interview Experience</button>
+      </a>
+
+      <a href="table.html" target="_blank">
+        <button id="my-button3" type="button">See full interview List</button>
       </a>
     <form action="/interview-details" method="post">
       <label for="name">Name:</label>
