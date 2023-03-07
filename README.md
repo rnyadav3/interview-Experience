@@ -5,7 +5,7 @@
 
 #Steps to run this app: 
 
-Clone this repo on our local system 
+Clone this repo on your local system 
 Then execute the following code on your terminal:
 
 ```run npm init```
